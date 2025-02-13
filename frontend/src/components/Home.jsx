@@ -80,6 +80,7 @@ const Home = () => {
                     <a href="#">Red Check Shirt for Men</a>
                     <div className="price">
                       $50 <span className='text-decoration-line-through'>$80</span>
+                      
                     </div>
                   </div>
                 </div>
