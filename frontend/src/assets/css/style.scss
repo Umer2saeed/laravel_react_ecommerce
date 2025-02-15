@@ -157,12 +157,32 @@ footer {
         padding: 0;
         a {
             font-size: 1.2em;
+            &:hover {
+                color: $primary-color;
+            }
         }
+
         .price { 
             font-size: 1em;
+            padding-bottom: 20px;
             span {
                 color: rgba($primary-black, 0.5);
             }
+        }
+    }
+}
+
+@media (min-width: 200px) and (max-width: 768px)
+{
+    .hero-section {
+        .swiper {
+            .swiper-wrapper {
+                .swiper-slide {
+                    height: 400px;
+                    
+                }
+            }
+    
         }
     }
 }

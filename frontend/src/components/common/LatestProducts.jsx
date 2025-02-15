@@ -7,7 +7,7 @@ const LatestProducts = () => {
     <div className="container">
       <h2>New Arrivals</h2>
       <div className="row mt-3">
-        <div className="col-md-3 text-center">
+        <div className="col-md-3  col-6 text-center">
           <div className="product card border-0">
             <div className="card-img">
               <img src={ ProductImg } className='w-75' alt="" />
@@ -21,7 +21,7 @@ const LatestProducts = () => {
           </div>
         </div>
 
-        <div className="col-md-3 text-center">
+        <div className="col-md-3 col-6 text-center">
           <div className="product card border-0">
             <div className="card-img">
               <img src={ ProductImg } className='w-75' alt="" />
@@ -35,7 +35,7 @@ const LatestProducts = () => {
           </div>
         </div>
 
-        <div className="col-md-3 text-center">
+        <div className="col-md-3 col-6 text-center">
           <div className="product card border-0">
             <div className="card-img">
               <img src={ ProductImg } className='w-75' alt="" />
@@ -49,7 +49,7 @@ const LatestProducts = () => {
           </div>
         </div>
 
-        <div className="col-md-3 text-center">
+        <div className="col-md-3 col-6 text-center">
           <div className="product card border-0">
             <div className="card-img">
               <img src={ ProductImg } className='w-75' alt="" />
