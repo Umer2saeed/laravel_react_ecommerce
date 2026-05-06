@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7d8cae34-b7e2-404c-bf55-3d41f9191942" name="teledoctor">
+        <fileTransfer rootFolder="/home/admin/public_html/" accessType="SFTP" host="46.202.93.115" port="22" sshConfigId="49559508-228d-42b9-935a-e1deb94aa60a" sshConfig="root@46.202.93.115:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
